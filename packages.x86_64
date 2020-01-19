@@ -78,3 +78,17 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+base
+mesa
+xorg
+xorg-xinit
+sddm
+networkmanager
+plasma-meta
+kwrite
+firefox
+dolphin
+konsole
+gparted
+pulseaudio
+pulseaudio-alsa
