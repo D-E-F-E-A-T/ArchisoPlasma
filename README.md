@@ -8,21 +8,22 @@ The intent of this ISO is to provide basic GUI utilities for a live Arch Linux b
 These are the packages that have been added which are not in the default [Archiso](https://wiki.archlinux.org/index.php/Archiso) releng profile.
 ```
 base
+dolphin
+firefox
+gparted
+konsole
+kwrite
+linux-lts
 mesa
-xorg
-xorg-xinit
-sddm
 networkmanager
 plasma-meta
-kwrite
-firefox
-dolphin
-konsole
-gparted
 pulseaudio
 pulseaudio-alsa
+sddm
+xorg
+xorg-xinit
 ```
 
 ## Build process
 
-In a Arch Linux system, just run the build.sh script. The [Archiso wiki](https://wiki.archlinux.org/index.php/Archiso#Setup) recommends the files to be owned by the root user.
+In a Arch Linux system, install the archiso packaged and just run the build.sh script. The [Archiso wiki](https://wiki.archlinux.org/index.php/Archiso#Setup) recommends the files to be owned by the root user.
