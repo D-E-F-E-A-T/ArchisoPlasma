@@ -22,5 +22,6 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable NetworkManager
 systemctl enable sddm.service
-systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default graphical.target
+
+echo 'load-module module-device-manager' > /etc/pulse/default.pa

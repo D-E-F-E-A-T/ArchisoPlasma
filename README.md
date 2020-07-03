@@ -7,21 +7,13 @@ The intent of this ISO is to provide basic GUI utilities for a live Arch Linux b
 
 These are the packages that have been added which are not in the default [Archiso](https://wiki.archlinux.org/index.php/Archiso) releng profile.
 ```
-base
+plasma-desktop
 dolphin
 firefox
-gparted
 konsole
-kwrite
-linux-lts
-mesa
-networkmanager
-plasma-meta
+gparted
 pulseaudio
-pulseaudio-alsa
 sddm
-xorg
-xorg-xinit
 ```
 
 ## Build process
